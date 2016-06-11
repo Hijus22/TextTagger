@@ -9,5 +9,10 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Hijus/Desktop/Universidad/CV/LA/stanford-postagger-full-2015-12-09/lib/slf4j-api.jar"/>
 	<classpathentry kind="lib" path="/Users/Hijus/Desktop/Universidad/CV/LA/stanford-postagger-full-2015-12-09/lib/slf4j-simple.jar"/>
+	<classpathentry kind="lib" path="/Users/Hijus/Desktop/Universidad/CV/LA/htmlunit-2.22-OSGi.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/Hijus/Desktop/Universidad/CV/LA/htmlunit-2.22/apidocs/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
