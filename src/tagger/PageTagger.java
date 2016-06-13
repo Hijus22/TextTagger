@@ -39,7 +39,7 @@ public class PageTagger {
 		}catch (OutOfMemoryError e){
 			System.err.println("OutOfMemory Error: The sentence is too long");
 			int textLen = text.split("[/. ,:]").length;
-			taggedText = "There is a sentence that is too long, it has "
+			taggedText = "The text is too long, it has "
 					+ "approximately " + textLen + " words";
 		}
 		
@@ -110,6 +110,8 @@ public class PageTagger {
 				System.out.println(url.toString() + " Contains this TAGGED text in body");
 				writer.newLine();
 				writer.write(url.toString() + " Contains this TAGGED text in body");
+				writer.newLine();
+				writer.write("############################################");
 				writer.newLine();
 				taggedText = pageTagger.tagText(text);
 				if (taggedText == null) {
